@@ -1,6 +1,6 @@
 Linux is a multi-user environment, meaning multiple users can access the same folders and terminals simultaneously from different locations or desktops.
 
-###Types of Users:
+### Types of Users:
 1. **Root User (Super User):** The system administrator with full access to all parts of the system and the ability to execute any task.
 2. **Normal User:** Operates with restricted privileges. Each user has their own personal home folder and private file system area.
 
@@ -84,11 +84,11 @@ Wildcards are symbols used to represent one or more characters, allowing you to 
 **Note:** Bash is case-sensitive, so wildcards must be used carefully.
 
 **Common Wildcard Classes:**
-1. **`?` **(Single Character):* Matches exactly one character.
+1. `?` **(Single Character):** Matches exactly one character.
     - Example: `b??l` matches `bull`, `ball`, `bowl`.
-2. *`*` **(Multiple Characters):** Matches zero or more characters.
+2. `*` **(Multiple Characters):** Matches zero or more characters.
     - Example: `b*l` matches `bl`, `bel`, `bell`, `brawl`.
-3. **`[ ]` **(Character Sets):* Matches only the characters defined inside the brackets.
+3. `[ ]` **(Character Sets):** Matches only the characters defined inside the brackets.
     - Example: `b[ao][lw]l` matches `bowl`, `ball`, but **not** `bull`.
 
 > **Warning:** Be cautious when using wildcards on external drives (FAT/NTFS) as they might not support Linux-style case sensitivity.
