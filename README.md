@@ -7,5 +7,5 @@ I am documenting my journey through the **Linux Essentials** course by **Jason D
 Detailed, module-by-module notes:
 **[Linux Essentials Study Notes](./LinuxEssentialsNotes)**
 
-##Projects & Labs
+## Projects & Labs
 * [Projects/](./Projects): Server configurations, hardware specs, and lab setups.
