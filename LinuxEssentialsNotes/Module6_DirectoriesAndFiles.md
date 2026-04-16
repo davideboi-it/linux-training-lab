@@ -43,8 +43,6 @@ Linux follows the **FHS** to maintain organization. It distinguishes between:
 - **Static vs. Variable:** - **Static:** Files that do not change (e.g., executable programs, libraries).
     - **Variable:** Files that change frequently (e.g., log files, spool files, temporary data).
 
-# Module 5: File Navigation and Management
-
 ### Exploring the Filesystem
 - `ls`: Standard command to list files.
 - `ls -a`: List **all** files, including hidden ones (those starting with a dot `.`).
