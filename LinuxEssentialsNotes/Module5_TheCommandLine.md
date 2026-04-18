@@ -1,10 +1,14 @@
-### Anatomy of an Operation
+#Module 5: The Command Line
+
+## 1 Anatomy of an Operation
 Any operation on a PC follows a three-step process:
 1. **Input:** The user performs an action.
 2. **Command:** Input is sent via mouse or keyboard.
 3. **Execute:** The system performs the task.
 
-### Command Syntax
+---
+
+## 2 Command Syntax
 A command is a sequence of characters ending with the **Enter** key. It is evaluated by the shell (Bash shows your username, directory, and the `$` dollar sign prompt). 
 To make the shell understand your input, you must follow a specific syntax:
 
@@ -13,7 +17,9 @@ To make the shell understand your input, you must follow a specific syntax:
 - **Options:** Modify how a command behaves. Usually preceded by a single dash `-` (short options) or two dashes `--` (long options).
 - **Arguments:** Parameters that the command acts upon (e.g., a file name or path).
 
-### Automation and Scripting
+---
+
+## 3 Automation and Scripting
 The PC and Shell are designed to simplify repetitive tasks for the user.
 - **Scripts:** A file containing a series of commands to automate tasks.
 - **Variables:** Areas of memory used to store information, referred to by a name. 
@@ -27,7 +33,9 @@ To ensure the shell correctly interprets your data, follow these naming conventi
 - **Punctuation:** No punctuation marks or special symbols are allowed in the name.
 - **Environment Variables:** Use the `printenv` command to see all active environment variables in your current session.
 
-### Shell Meta-Characters
+---
+
+## 4 Shell Meta-Characters
 Meta-characters are symbols that have a special meaning to the shell rather than being treated as simple text.
 - **Common Meta-characters:** `Space` (syntax divider), `$`, `*`, `;`, `>`, `?`, `&`, `|`.
 
@@ -41,7 +49,7 @@ Meta-characters are symbols that have a special meaning to the shell rather than
 
 ---
 
-### Navigation and Manuals
+## 5 Navigation and Manuals
 - **Home Directory:** The tilde symbol `~` represents the current user's home directory.
 - **Manual Pages (`man`):** A built-in documentation system.
 - **Keyword Search:** If you don't know the exact command, use `man -k <keyword>` to search through the manual summaries.

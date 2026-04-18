@@ -1,4 +1,6 @@
-### OSS (Open Source Software)
+#Module 3: Open Source Software
+
+## 1 OSS (Open Source Software)
 Software released under a license where the copyright holder grants users the right to study, change, and distribute the software to anyone for any purpose.
 - **Collaboration:** Usually developed by multiple people through open collaboration for greater product stability.
 - **GPL (General Public License):** A widely used free software license that guarantees end users the freedom to run, study, share, and modify the software.
@@ -20,7 +22,7 @@ A public benefit organization that promotes the use of open-source software and 
 
 ---
 
-### Open Source Alternatives (Desktop & Server)
+## 2 Open Source Alternatives (Desktop & Server)
 
 **Desktop Applications:**
 - **LibreOffice:** Free alternative to Microsoft 365 (Writer, Calc, etc.).
@@ -59,7 +61,7 @@ Linux is a versatile environment for multiple programming formats, especially in
 
 ---
 
-# Linux Applications and Package Management
+## 3 Linux Applications and Package Management
 
 ### Software Compatibility
 - **Distro Dependencies:** Linux applications generally do not run on every distribution because packages and libraries vary across systems.

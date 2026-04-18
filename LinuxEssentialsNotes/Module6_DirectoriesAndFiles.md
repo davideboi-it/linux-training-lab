@@ -1,30 +1,36 @@
+#Module 6: Directories and Files
+
 Linux is a multi-user environment, meaning multiple users can access the same folders and terminals simultaneously from different locations or desktops.
 
-### Types of Users:
+## 1 Types of Users:
 1. **Root User (Super User):** The system administrator with full access to all parts of the system and the ability to execute any task.
 2. **Normal User:** Operates with restricted privileges. Each user has their own personal home folder and private file system area.
 
 ---
 
-### Filesystem Structure
+## 2 Filesystem Structure
 Linux organizes all files in a **Tree-like structure**.
 - **Root Directory (`/`):** The principal directory and the starting point of the entire system (equivalent to `C:\` in Windows).
 - **Paths:** Linux uses **Front Slashes** (`/`) to separate directories, unlike Windows which uses backslashes (`\`).
 
-### Mounting Partitions
+---
+
+## 3 Mounting Partitions
 Linux handles storage differently than Windows:
 - **Mounting:** The process of attaching a partition or device to a specific directory in the filesystem tree.
 - **Access:** Data on an unmounted partition is inaccessible. It must be "mounted" into the filesystem (e.g., under `/mnt` or `/media`) to be read or written.
 - **Windows vs. Linux:** Windows automatically assigns letters (C:, D:) at boot. Linux requires initialization (mount), though removable drives are often handled automatically by modern desktop environments.
 
-### File Characteristics
+---
+
+## 4 File Characteristics
 - **Case Sensitivity:** Linux is case-sensitive. `File.txt` and `file.txt` are two completely different files.
 - **Extensions:** File extensions are not mandatory. A file's type is determined by its content/header, not just its name.
 - **Hidden Files:** Any file or folder starting with a dot `.` is hidden by default (e.g., `.bashrc`).
 
 ---
 
-### Permissions and Ownership
+## 5 Permissions and Ownership
 Every user has a personal folder, but the **Root** user has total permission over the entire system.
 
 **The 3 Types of Permissions:**
@@ -37,7 +43,7 @@ Permissions can be modified via the Shell (using `chmod`) or the Filesystem Mana
 
 ---
 
-### Filesystem Hierarchy Standard (FHS)
+## 6 Filesystem Hierarchy Standard (FHS)
 Linux follows the **FHS** to maintain organization. It distinguishes between:
 - **Sharable vs. Unsharable:** Data that can be accessed over a network vs. data local to a specific machine.
 - **Static vs. Variable:** - **Static:** Files that do not change (e.g., executable programs, libraries).
@@ -65,7 +71,7 @@ Understanding your position in the "Tree" is vital for execution:
 
 ---
 
-### Understanding Links
+## 7 Understanding Links
 Sometimes it is more efficient to use a different name to refer to the same file rather than copying it. This is done using the `ln` command.
 - **Hard Link:** Creates a duplicate directory entry where both names point to the exact same data on the disk.
     - **Syntax:** `ln <original_name> <link_name>`
@@ -77,7 +83,7 @@ A **Symbolic Link** is a special type of file that points to another file or dir
 
 ---
 
-### Wildcards (Globbing)
+## 8 Wildcards (Globbing)
 Wildcards are symbols used to represent one or more characters, allowing you to perform actions on multiple files at once. 
 **Note:** Bash is case-sensitive, so wildcards must be used carefully.
 
@@ -93,7 +99,7 @@ Wildcards are symbols used to represent one or more characters, allowing you to 
 
 ---
 
-### Directory Management from Bash
+## 9 Directory Management from Bash
 You can create, remove, and organize directories directly from the terminal:
 
 - `mkdir <name>`: Creates a new directory.

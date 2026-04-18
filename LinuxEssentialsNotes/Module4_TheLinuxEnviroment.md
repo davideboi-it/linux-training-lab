@@ -1,4 +1,6 @@
-### Linux Desktop Environment (DE)
+#Module 4: The Linux Enviroment
+
+## 1 Linux Desktop Environment (DE)
 The "look and feel" of a Linux system depends on the Desktop Environment.
 - **Core vs. UI:** The Kernel (core) handles hardware communication, while the DE handles the user interface.
 - **Resource Management:** CLI (Command Line Interface) is the most efficient way to save system resources. However, for a graphical experience, we use a **GUI (Graphical User Interface)**.
@@ -12,7 +14,7 @@ Every Linux OS can be personalized through specific settings and the modular nat
 
 ---
 
-### What is the Shell?
+## 2 What is the Shell?
 The **Shell** is a program that takes commands from the keyboard and gives them to the **Kernel** to execute.
 - **BASH (Bourne Again Shell):** The default shell on most Linux distributions. It acts as the command processor within the CLI.
 - **Other Shells:** KSH (Korn Shell), TCSH, ZSH.
@@ -33,7 +35,7 @@ The **Shell** is a program that takes commands from the keyboard and gives them 
 
 ---
 
-### Software and Package Management
+## 3 Software and Package Management
 Most Linux distros come with pre-installed software, but you can manage additional software through **Repositories**.
 - **Package:** A compressed file archive containing the app, configurations, and instructions.
 - **Dependencies:** Prerequisites required to install a package.
