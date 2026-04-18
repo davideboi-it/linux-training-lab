@@ -9,3 +9,6 @@ Detailed, module-by-module notes:
 
 ## Projects & Labs
 * [Projects/](./Projects): Server configurations, hardware specs, and lab setups.
+
+## Esercises
+[Exercises](./Exercises) that i used to experiment what i learned from the course.
