@@ -94,53 +94,53 @@ Enable a script to perform one of several actions relying on a particular condit
 * `||`: OR
 
 ### Syntax
-if (condition)
-then
-    (operation)
-else
-    (operation on false)
-fi (end of condition)
+`If (condition)`
+`then`
+    `(operation)`
+`else`
+    `(operation on false)`
+`fi (end of condition)`
 
 ### Case Statement
 If you need more cases, you can nest the **if/then/else clauses**, but is better to use case / esac:
 
-case $VAR in
-    pattern1)
-        'command1' ;;
-    pattern2)
-        'command2' ;;
-esac
+`case $VAR in`
+    `pattern1)`
+        `'command1' ;;`
+    `pattern2)`
+        `'command2' ;;`
+`esac`
 
 ### Loops and Functions
 Loops tell to the script to perform the same task repeatedly.
 
 * **SEQ**: Generates a list of numbers starting from its first argument and continuing to its last one.
 
-seq 1 10: Increase 1 to 10 (ending).
+`seq 1 10`: Increase 1 to 10 (ending).
 
-seq 1 2 10: Start from 1, increase by 2, until 10.
+`seq 1 2 10`: Start from 1, increase by 2, until 10.
 
 * **WHILE**: Executes for as long as its condition is true.
 
-while (condition)
-do
-    'commands'
-done
+`while (condition)`
+`do`
+    `'commands'`
+`done`
 
 * **UNTIL**: Similar to while but it will execute until true (runs while false).
 
-###Functions
+### Functions
 Used to do specific tasks and help to create modular script.
 
-function MYFC() {
-    commands
-}
+`function MYFC() {`
+    `'commands'`
+`}`
 Note: Sometimes keyword function may optionally precede the function names.
 
-###Exit Part (Value)
+### Exit Part (Value)
 A script's return value is the same as the last command the script called.
 
-exit causes immediately to close the script and so $?.
+`exit` causes immediately to close the script ($?).
 
 An exit value can be from 0 to 255 (to show code error of a script).
 
