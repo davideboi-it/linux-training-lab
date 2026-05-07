@@ -1,4 +1,4 @@
-#Module 5: The Command Line
+# Module 5: The Command Line
 
 ## 1 Anatomy of an Operation
 Any operation on a PC follows a three-step process:

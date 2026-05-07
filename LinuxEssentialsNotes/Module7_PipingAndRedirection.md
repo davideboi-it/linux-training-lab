@@ -1,4 +1,4 @@
-#Piping and Redirection
+# Module 7: Piping and Redirection
 
 This module covers the essential tools for data manipulation, stream redirection, and basic data analysis in the Linux command line.
 

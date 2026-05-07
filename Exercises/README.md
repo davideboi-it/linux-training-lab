@@ -6,3 +6,5 @@ This directory contains all my practical exercises and server configurations as 
 * **[Module 6](./Module6Exercises):** File and directory management, Wildcards, and navigating the filesystem.
 * **[Module 7](./Module7Exercises):** Piping and extracting data from files
 * **[Module 8](./Module8Exercises):** Creating and testing basics scripts
+* **[Module·11](./Module11Exercises.md):** Users and groups exercises
+*·**[Module·12](./Module12Exercises):**·Permission and ownership exercises

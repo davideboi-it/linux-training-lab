@@ -1,4 +1,4 @@
-#Module 4: The Linux Enviroment
+# Module 4: The Linux Enviroment
 
 ## 1 Linux Desktop Environment (DE)
 The "look and feel" of a Linux system depends on the Desktop Environment.

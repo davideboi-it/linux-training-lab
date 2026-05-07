@@ -1,4 +1,4 @@
-#Module 6: Directories and Files
+# Module 6: Directories and Files
 
 Linux is a multi-user environment, meaning multiple users can access the same folders and terminals simultaneously from different locations or desktops.
 

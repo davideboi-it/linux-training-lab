@@ -1,6 +1,6 @@
 # Davide Boi -Training Lab
 
 ## Certification Path
-- [ ] CompTIA Linux Essentials
+- [X] Linux Essentials - 02/05/2026
 - [ ] CompTIA Server+
 
