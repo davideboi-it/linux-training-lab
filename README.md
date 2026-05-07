@@ -12,3 +12,5 @@ Detailed, module-by-module notes:
 
 ## Esercises
 [Exercises](./Exercises) that i used to experiment what i learned from the course.
+
+# OBTAINED CERTIFICATION THE 2ND MAY OF 2026!!!
