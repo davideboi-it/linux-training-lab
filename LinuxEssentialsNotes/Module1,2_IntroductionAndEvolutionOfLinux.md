@@ -47,7 +47,7 @@ A **Distribution (Distro)** consists of a Kernel, Software, and Libraries config
 
 ---
 
-## 5 Installing Ubuntu
+## 7 Installing Ubuntu
 To install Ubuntu, you must download the **.ISO image** (a virtual disk file).
 **Methods:**
 - **Physical:** Burn the ISO to a USB drive or CD/DVD.
@@ -56,7 +56,7 @@ To install Ubuntu, you must download the **.ISO image** (a virtual disk file).
 
 ---
 
-## 6 OS Comparison & Security
+## 8 OS Comparison & Security
 - **Market Share:** Windows dominates the home and corporate desktop market (90%), followed by Mac (7%) and Linux (2% on desktop).
 - **Security:** Windows is a frequent target for malware due to its high usage. Linux is considered more secure because its **open-source** nature allows for transparency and rapid community-driven security patches.
 - **Cost:** Windows requires a paid license; Mac OS is free but requires Apple hardware; Linux is free and runs on almost any hardware.
@@ -64,5 +64,5 @@ To install Ubuntu, you must download the **.ISO image** (a virtual disk file).
 
 ---
 
-## 7 Preemptive Multitasking
+## 9 Preemptive Multitasking
 A core OS function where the system uses specific criteria to decide how to allocate CPU time to various tasks. It ensures that no single task can monopolize the system resources.
