@@ -2,5 +2,5 @@
 
 ## Certification Path
 - [X] Linux Essentials - 02/05/2026
-- [ ] CompTIA Server+
+- [X] CompTIA Server+ - 13/06/2026
 
